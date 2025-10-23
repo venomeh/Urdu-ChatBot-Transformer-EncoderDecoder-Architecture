@@ -54,6 +54,7 @@ The app will open in your default browser at `http://localhost:8501`
 ## 📁 Project Structure
 
 ```
+├── model.py                          # Core Model
 ├── app.py                          # Streamlit web application
 ├── corpus.txt                      # Training data (Urdu conversation)
 ├── urdu_encoder_decoder.pth       # Trained model weights
@@ -82,6 +83,13 @@ The model was trained using:
 - **Text Normalization**: Custom Urdu text normalizer
 - **Vocabulary**: Built from training corpus with special tokens (<PAD>, <SOS>, <EOS>, <UNK>, <MASK>)
 
+The training achieved:
+- **Perplexity Score**: ~33
+- **RoughL**: 0.30
+- **chrF**: 0.42
+- **BLEU**: 0.28
+
+  
 ## 💡 Technical Highlights
 
 This project was an **interesting dive into the core of things**:
@@ -129,3 +137,5 @@ Built as an exploration into transformer architectures and their application to 
 ---
 
 **Note**: This is an educational project demonstrating transformer architecture implementation from scratch. The model's performance depends on the training data provided in `corpus.txt`.
+
+## Demo link : https://urdu-chatbot-transformer-encoderdecoder-architecture-nasxnlahg.streamlit.app/
