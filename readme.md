@@ -139,3 +139,5 @@ Built as an exploration into transformer architectures and their application to 
 **Note**: This is an educational project demonstrating transformer architecture implementation from scratch. The model's performance depends on the training data provided in `corpus.txt`.
 
 ## Demo link : https://urdu-chatbot-transformer-encoderdecoder-architecture-nasxnlahg.streamlit.app/
+
+## Blog link : https://medium.com/@muhammadabdullahmahmood/building-an-urdu-conversational-chatbot-with-transformers-a-technical-deep-dive-a5263de3ac38
