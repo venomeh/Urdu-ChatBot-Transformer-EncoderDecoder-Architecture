@@ -54,6 +54,7 @@ The app will open in your default browser at `http://localhost:8501`
 ## 📁 Project Structure
 
 ```
+├── model.py                          # Core Model
 ├── app.py                          # Streamlit web application
 ├── corpus.txt                      # Training data (Urdu conversation)
 ├── urdu_encoder_decoder.pth       # Trained model weights
