@@ -82,13 +82,6 @@ The model was trained using:
 - **Loss Function**: Cross-Entropy Loss
 - **Text Normalization**: Custom Urdu text normalizer
 - **Vocabulary**: Built from training corpus with special tokens (<PAD>, <SOS>, <EOS>, <UNK>, <MASK>)
-
-The training achieved:
-- **Perplexity Score**: ~33
-- **RoughL**: 0.30
-- **chrF**: 0.42
-- **BLEU**: 0.28
-
   
 ## 💡 Technical Highlights
 
